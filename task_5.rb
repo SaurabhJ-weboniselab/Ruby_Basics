@@ -30,3 +30,11 @@ def reverse_string_array(str)
 end
 
 puts reverse_string_array string.split(/ /)
+
+def tarverse_print(str, word)
+  str.split(' ').each do |s|
+    puts s if s == word
+  end
+end
+
+tarverse_print string, word
