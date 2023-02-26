@@ -30,3 +30,5 @@ def reverse_string_array(str)
 end
 
 puts reverse_string_array string.split(/ /)
+
+puts "String1 length = #{string.length} String2 length = #{string2.length}"
