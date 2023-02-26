@@ -30,3 +30,5 @@ def reverse_string_array(str)
 end
 
 puts reverse_string_array string.split(/ /)
+
+puts string.gsub(/(<[^>]*>)|\n|\t/s, '')
